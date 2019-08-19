@@ -4,6 +4,35 @@
     border: 1px solid transparent;
     background: transparent;
     border-radius: 4px;
+}
+
+.btn-color-orange{
+    background-color: #ffc300;
     
+}
+
+.btn-size{
+padding: 0;
+
+
+}
+
+.logo-reyhoon{
+    width:10%;
+}
+
+.nav-flex{ 
+    display: flex;
+    width:100%;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    height:70px;
+    background-color: white;
+
+}
+
+.help ul , .login ul{
+    list-style: none;
+    color:rgb(54, 53, 53)
     
 }
