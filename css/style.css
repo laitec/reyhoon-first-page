@@ -1,5 +1,13 @@
 @import url("font.css");
-
+body,html {
+    width: 100%;
+    direction: rtl;
+    font-size: 16px;
+    height: 100%;
+    margin: 0;
+    font-family: 'Shabnam', serif;
+  }
+  
 .btn{
     border: 1px solid transparent;
     background: transparent;
@@ -18,21 +26,123 @@ padding: 0;
 }
 
 .logo-reyhoon{
-    width:10%;
+    height:35px;
+    margin-top: 10px;
 }
 
 .nav-flex{ 
     display: flex;
     width:100%;
-    flex-flow: row nowrap;
+    flex-flow: row-reverse nowrap;
     justify-content: space-around;
-    height:70px;
+    height:3.438em;
     background-color: white;
+}
+svg{
+    width:7rem;
+}
+.help{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.help ul {
+    list-style: none;
+    color:rgb(54, 53, 53);
+    margin: auto;
+    
+}
+ul.help { 
+    width:10%;
+    
+}
+.login{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:8.125em;
+    align-self: flex-start;
+}
+.login li{
+    width:20%;
+    text-align: left;
+}
+/* li.dash{width:5%;} */
+.horizontal-line {
+	/* box-shadow: 0 1px 1px 1.5px rgb(240, 13, 81); */
+    height: 3px;
+    background-image: linear-gradient(to right, #ee1071, #df0081, #cb0092, #b000a2, #8c05b1);}
+
+.header{
+     background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://dist.reyhoon-static.com/web-assets/images/backgrounds/home-page-bg.jpg?x-oss-process=image/resize,w_1600/interlace,1/quality,q_60");
+     height: 100vh;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.bg-light{
+    background-color: white;
+}
+
+.section-flex{
+	/* background-color: aquamarine; */
+	margin: 30px auto;
+	width: 1500px;
+	display: flex;
+	flex-flow:row wrap;
+	justify-content: space-between;
+}
+
+.heading h1{
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-shadow: 0px 0px 15px  rgba(51, 49, 49,0.89);
+
+}
+.heading{
+    width: 100%;;
+    flex-flow:column wrap;
+    justify-content: center;
+    margin-top: 8.750em;
+}
+
+
+.center-text{
+    text-align: center;
+}
+
+.form-box{
+    flex-flow:column wrap;
+    justify-content: center;
+}
+
+.form-box p{
+    color: white;
+    font-size: 1rem;
+    text-shadow: 0px 0px 15px  rgba(51, 49, 49,0.89);
 
 }
 
-.help ul , .login ul{
-    list-style: none;
-    color:rgb(54, 53, 53)
-    
+.form-box div{
+    height: 82px;
+    background-color: white;
+    width: 48.750em;
+    margin: auto;
+    border-radius: 10px;
+}
+
+input{
+    background-color: white;
+    background-image: url('../image/search.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    width:38.125rem;
+    border: 1px solid rgb(82, 79, 79);
+    border-radius: 10px;
+    box-shadow:0 0 1px 0 rgb(82, 79, 79);
+    height: 3.750em;
 }
