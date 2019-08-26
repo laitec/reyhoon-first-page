@@ -75,7 +75,7 @@ ul.help {
 
 .header{
      background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://dist.reyhoon-static.com/web-assets/images/backgrounds/home-page-bg.jpg?x-oss-process=image/resize,w_1600/interlace,1/quality,q_60");
-     height: 100vh;
+     height: 123vh;
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -86,7 +86,7 @@ ul.help {
 
 .section-flex{
 	/* background-color: aquamarine; */
-	margin: 30px auto;
+	/* margin: 15px auto; */
 	width: 1500px;
 	display: flex;
 	flex-flow:row wrap;
@@ -106,7 +106,7 @@ ul.help {
     width: 100%;;
     flex-flow:column wrap;
     justify-content: center;
-    margin-top: 8.750em;
+    margin-top: 7.750rem;
 }
 
 
@@ -134,15 +134,88 @@ ul.help {
     border-radius: 10px;
 }
 
-input{
-    background-color: white;
-    background-image: url('../image/search.png');
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    padding-left: 40px;
+input {
+    
     width:38.125rem;
     border: 1px solid rgb(82, 79, 79);
+    border-left: none;
     border-radius: 10px;
     box-shadow:0 0 1px 0 rgb(82, 79, 79);
     height: 3.750em;
+    display: inline-block;
+}
+
+.container-flex {
+    display:flex;
+    width:1170px;
+    margin: 0 auto;
+}
+
+.box-flex{
+    width:26%;
+    height:275px;
+    background-color: white;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,0.11);
+    display: flex;
+    margin: auto;;
+    border-radius: 0.8rem;
+    text-align: center;
+    margin-top:-15rem ;
+    box-sizing: border-box;
+    flex-basis: 26%;
+
+}
+
+.box-flex h2{
+    color: #777;
+    font-size: 1rem;
+
+}
+
+.box-flex p{
+    color: #9b9b9b;
+    font-size: 0.875rem;
+
+}
+.row-direction{
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    
+}
+
+.flex-around{
+    justify-content: space-around;
+}
+
+.column-direction{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+
+.flex-evenly{
+    justify-content: space-evenly
+}
+
+.marginTop{
+    margin-top: 90px;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+.resturant-flex{
+    width:26%;
+    height:275px;
+    background-color: white;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,0.11);
+    display: flex;
+    margin: auto;;
+    border-radius: 0.8rem;
+    text-align: center;
+    margin-top:15px ;
+    box-sizing: border-box;
+    flex-basis: 30%;
+
 }
