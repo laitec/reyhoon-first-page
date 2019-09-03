@@ -1,0 +1,781 @@
+
+  
+@media  (min-width:320px) {
+    @import url("font.css");
+body,html {
+    width: 100%;
+    direction: rtl;
+    font-size: 62.5%;  /*10px*/
+    height: 100%;
+    margin: 0;
+    font-family: 'Shabnam', serif;
+    background-color: rgb(249, 249, 253)
+  }
+  
+  body{
+      font-size: 1.4rem;
+  }
+    ::-webkit-input-placeholder { /* Edge */
+        color: #9b9b9b;
+        font-family: 'Shabnam', serif;
+    
+      }
+      
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #9b9b9b;
+        font-family: 'Shabnam', serif;
+      }
+      
+      ::placeholder {
+        color: #9b9b9b;
+        font-family: 'Shabnam', serif;
+      }
+      
+     section{
+        margin: 60px auto ;
+    } 
+    .btn{
+        border: 1px solid transparent;
+        background: transparent;
+        border-radius: 4px;
+    }
+    
+    .btn-color-orange{
+        background-color: #ffc300;
+        
+    }
+    
+    .btn-size{
+    padding: 0;
+    
+    
+    }
+    
+    
+    
+    .nav-flex{ 
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        justify-content: space-around;
+        height:5.8rem;
+        background-color: white;
+        margin: auto;
+        align-items: center;
+    }
+    
+    
+    
+    .help{
+        display:flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    .help ul {
+        list-style: none;
+        color:rgb(54, 53, 53);
+        margin: auto;
+        
+    }
+    
+    ul.help { 
+        width:3.3rem;
+        
+    }
+    .dash.dash{width:15px;
+    text-align: right;}
+    .login{
+        display:flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        width:10.9rem;
+        align-self: flex-start;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .login li{
+        width:6.3rem;
+        text-align: center;
+    }
+    
+    /* li.dash{width:5%;} */
+    
+    .horizontal-line {
+        /* box-shadow: 0 1px 1px 1.5px rgb(240, 13, 81); */
+        height: 3px;
+        background-image: linear-gradient(to right, #ee1071, #df0081, #cb0092, #b000a2, #8c05b1);
+    }
+    
+    .header{
+         background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://dist.reyhoon-static.com/web-assets/images/backgrounds/home-page-bg.jpg?x-oss-process=image/resize,w_1600/interlace,1/quality,q_60");
+         height: 90rem;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+        min-height: 70rem; 
+    }
+    
+    .bg-light{
+        background-color: white;
+    }
+    
+    .header-form-section p{
+        margin:1.5rem auto;
+        width:100%;
+        font-size: 1.5rem;
+        color: white;
+        text-align: center;
+    }
+    
+    .header-form{
+     width:78rem;
+     background: white;
+     border-radius: 7px;
+     margin: auto;
+     display: flex;
+     flex-flow: row nowrap;
+     flex-direction: center;
+     height: 8.2rem;
+     padding: 0 7px;
+     align-items: center;
+    }
+    
+    .header-form input , .header-form button {
+        height:62px;
+        box-sizing: border-box; 
+        border-radius: 7px;
+        font-size: 1.8rem;
+        outline: none;
+    }
+    
+    .child-1{
+        flex-grow: 1;
+        margin-left: 5px ;
+        border: 1px solid rgba(196, 185, 185, 0.5);
+    }
+    
+    .child-2.child-2{
+        flex-grow: 5;
+        border-left: none;
+        padding: 0 5px;
+        position: relative;
+        border: 1px solid rgba(196, 185, 185, 0.5);
+        border-left: none;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 0 5px 5px 0;
+    }
+    
+    .child-2::before{
+        content: "منطقه خود را وارد کنید";
+        position: absolute;
+        top: -8px;
+        color: #222;
+        font-size: 10px;
+        background-color: #fff;
+        padding: 1px 10px 1px 30px ;
+    }
+    
+    .child-2-input {
+        width: 100%;
+        border: none;
+    }
+    
+    .child-2-icon {
+        font-size: 20px;
+        color: #9b9b9b;
+        opacity: 0.5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        padding-top: 0.2rem;
+    }
+    
+    .child-3.child-3{
+        flex-grow: 0;
+        border-right: none ; 
+        border-color: transparent ;
+        background-image: linear-gradient(to right, #ee1071, #df0081, #cb0092, #b000a2, #8c05b1);;
+        width: 6.2rem;
+        border-radius: 5px 0 0 5px;
+    }
+    
+    .search-svg{
+        /* margin-right: -1rem; */
+        height: 3rem;
+        width: 3rem;
+        color: white;
+        
+    }
+    
+    .section-flex{
+        /* background-color: aquamarine; */
+        /* margin: 15px auto; */
+        width: 150rem;
+        display: flex;
+        flex-flow:row wrap;
+        justify-content: space-between;
+    }
+    
+    .heading h1{
+        margin: 0;
+        color: white;
+        font-weight: bold;
+        font-size: 3rem;
+        line-height: 4rem;
+        text-shadow: 0px 0px 15px  rgba(51, 49, 49,0.89);
+    
+    }
+    
+    .heading{
+        width: 100%;;
+        flex-flow:column wrap;
+        justify-content: center;
+        margin-top: 7rem;
+    }
+    
+    .center-text{
+        text-align: center;
+    }
+    
+    .container-flex {
+        display:flex;
+        width:1170px;
+        margin: 0 auto;
+    }
+    
+    .box-flex{
+        width:26%;
+        height:27.5rem;
+        background-color: white;
+        box-shadow: 0 4px 12px 0 rgba(0,0,0,0.11);
+        display: flex;
+        margin: auto;;
+        border-radius: 0.7rem;
+        text-align: center;
+        margin-top:-23rem ;
+        box-sizing: border-box;
+        flex-basis: 26%;
+        padding: 1.9rem;
+    }
+    
+    .box-flex h2{
+        color: #777;
+        font-size: 1.6rem;
+    
+    }
+    
+    .box-flex p{
+        color: #9b9b9b;
+        font-size: 1.2rem;
+    
+    }
+    
+    .row-direction{
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        
+    }
+    
+    .flex-around{
+        justify-content: space-around;
+    }
+    
+    .column-direction{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+    }
+    
+    .flex-evenly{
+        justify-content: space-evenly
+    }
+    
+    .marginTop{
+        margin-top: 90px;
+    }
+    
+    .flex-center{
+        justify-content: center;
+    }
+    
+    .resturant-flex{
+        width:26%;
+        height:32.8rem;
+        background-color: white;
+        box-shadow: 0 4px 12px 0 rgba(0,0,0,0.11);
+        display: flex;
+        margin: auto;;
+        border-radius: 0.8rem;
+        text-align: center;
+        margin-top:15px ;
+        box-sizing: border-box;
+        flex-basis: 30%;
+        padding:2rem 1.5rem;
+    
+    }
+    
+    .section-bg{
+        width: 100%;
+        margin: 90px auto;
+        background-image: url('https://www.reyhoon.com/react-assets/dist/9b1766f8.jpg'); 
+        background-size: cover;
+        background-position: center right;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        height:75.3rem;
+    
+    }
+    
+    .gold-color{
+        color:rgb(246, 222, 6);
+    }
+    
+    .list-in-box {
+        display: flex;
+        justify-content:space-between;
+        box-sizing: border-box;
+        width: 26.2rem;
+    
+    }
+    
+    .resturant-flex h1{
+        font-size: 1.2em;
+    }
+    
+    .resturant-flex p{
+        font-size: 0.95rem;
+        color: #777;
+        margin: 15px !important;
+    }
+    
+    .list-in-box li:first-child{
+         list-style-type: none;
+    }
+    
+     .list-in-box.list-in-box {
+        padding: 0;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .btn-in-box{
+        border:1px solid rgb(248, 3, 105);
+        border-radius: 15px;
+        padding: 7px 12px;
+        width: 13.3rem;
+        color: rgb(248, 3, 105);
+        background: white;
+        align-self:center;
+    }
+    
+    
+    
+    .good-resturant{
+       
+        position: relative;
+        top:10%;
+        left: -10%;
+        margin-top:3;
+        background-color: transparent;
+    }
+    
+    .good-resturant-flex {
+        width:58rem;
+        height: 60.8rem;
+        display: flex;
+        flex-flow: row-reverse wrap;
+        justify-content: space-between;
+        color:#777;
+    }
+    
+    .good-resturant-flex div{
+        width:22%; 
+        height: auto;
+        margin:0.5rem  ;
+        font-size: 0.98rem;
+        text-align: center;
+        line-height: 1.250em;
+    }
+    
+    .good-resturant-flex  img{
+        max-width:100%;
+        
+    }
+    .good-resturant-flex p{
+        font-size: 1.5rem;
+    }
+    
+    .good-resturant-flex h1{
+        width:100%;
+        padding:15px 35px ;
+        font-size: 2rem;
+        color: black;
+    }
+    
+    .which-food{
+        margin: 60px  auto 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .which-food *{
+        text-align: center;
+        margin: 15px 0;
+        
+    }
+    .which-food h1{
+    
+        font-size: 4rem;
+        font-weight: bold;
+    }
+    .which-food h2{
+    
+        font-size: 2.5rem;
+        font-weight: normal;
+    }
+    
+    .img-box-flex{
+        margin: 15px auto;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    
+    .img-box-flex div {
+        width: 23%;
+        height: 294px;
+        justify-content: flex-end;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    
+    }
+    
+    .img-box-flex div h1{
+        font-size: 2.82rem;
+    }
+    
+    .img-box-flex div h4{
+        font-size: 1.58rem;
+    }
+    
+    .img-box-flex div *{
+        margin:5px 15px;
+        color: white;
+    }
+    
+    .more-food-flex{
+        flex-flow: row wrap;
+        display:flex;
+         
+        justify-content: space-around;
+    }
+    
+    .more-food-flex h3{
+        width:12.5%;
+        text-align: center;
+        font-size: 1.8rem;
+    
+    }
+    
+    .more-food-flex h1{
+        width:100%;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: normal;
+    
+    }
+    
+    .more-food{
+        width:62.500em;
+    margin: 90px auto;}
+    
+    .app{
+        margin:90px auto ;
+        margin-top: 375px;
+        position: relative;
+        width:1170px;
+        height: 540px;
+        background-color:white;
+        box-shadow: 0 0 15px 2px rgba(0,0,0,0.11);
+    }
+    
+    .app-flex{
+        width:65%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: 540px;
+        align-items: flex-start;
+        padding: 0 2.500em;
+    }
+    
+    .mobile-image{
+        position: absolute;
+        top:-16rem;
+        left:-28rem;
+        bottom:10rem;
+    }
+    
+    .a-in-app-flex{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    
+    .a-in-app-flex a{
+        width:28%;
+    }
+    
+    .app-h-1{
+        font-size: 3rem;
+    }
+    
+    .app-comment-1{
+        font-size: 2rem;
+        color: #202020;
+    }
+    
+    .app-comment-2{
+        font-size: 1.4rem;
+        color: rgb(153, 146, 146);
+        width:100%;
+    }
+    
+    .app-comment-3{
+        font-size:1rem;
+        color: rgb(153, 146, 146);
+    }
+    
+    .app-flex-form{
+        display: flex;
+        flex-flow: row wrap;
+        width:700px;
+    }
+    
+    .app-flex-form input{
+        flex-grow: 1;
+        border: 1px solid  #8c05b1;
+        height: 60px;
+        border-radius:0 30px  30px 0;
+        font-size: 2rem;
+        box-sizing: border-box;
+        color:rgb(153, 146, 146);
+        padding: 15px;
+    }
+    
+    .app-flex-form button{
+        flex-grow: 0;
+        box-sizing: border-box;
+        background-image: linear-gradient(to right, #ee1071, #df0081, #cb0092, #b000a2, #8c05b1);
+        height: 60px;
+        color: white;
+        margin-right: -15px;
+        padding: 0 30px;
+        font-size: 1.5rem;
+        border:1px solid transparent;
+        border-radius:  30px 0 0  30px ;
+    
+    }
+    
+    
+    
+    .bg-diagonal{
+        width:110%;
+        height:100rem;
+        clip-path: polygon(0 27%, 100% 16%, 100% 73%, 0 83%);
+        background-image: url('https://www.reyhoon.com/react-assets/faq-background.jpg');
+        background-repeat: no-repeat;
+        background-position: 30%;
+        background-size: cover;
+        background-attachment: scroll;
+        
+    }
+    
+    .article{
+        width:98.2rem;
+        margin: auto;
+        box-shadow: 0 0 15px 2px rgba(0,0,0,0.11);
+        border-top:2px solid #cb0092;
+        position: relative;
+        z-index: 2;;
+        background-color: white;
+        margin-top: -500px;
+    }
+    
+    .article div{
+        
+        margin:45px;
+        padding-bottom:45px; 
+        
+        border-bottom: 1px solid rgb(82, 79, 79,0.5);
+    }
+    
+    .article h1{
+        font-size: 3rem;
+        line-height: 5rem;
+        color:#4a4a4a;
+    
+    }
+    
+    .article p{
+        font-size: 1.5rem;
+        color: #777;
+        line-height: 3.5rem;
+    }
+    
+    .article div:last-child{
+        border-bottom: none;
+    
+    }
+    
+    .any-question{
+        text-align: center;
+        font-size: 2rem;
+        color:#4a4a4a;
+        font-weight: normal;
+    }
+    
+    .any-question button{
+        font-size:1.05em;
+        background-color: #ffc300;
+        color: white;
+        border: none;
+        width: 16.3rem;
+    
+    }
+    
+    footer{
+        color:#9b9b9b;
+        background-color:#202020;
+        height:62.7rem;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+    
+    }
+    
+    .footer-bottom{
+        background-color: #191919;
+        display: flex;
+        flex-flow: row-reverse wrap;
+        justify-content: space-around;
+        height: 9rem;
+        align-items: center;
+    }
+    
+    .footer-bottom a svg{
+        width: 2.5rem;
+    
+    }
+    .footer-bottom a{
+        padding: 0 10px;
+    }
+    
+    
+    
+    .footer-top{
+        width: 1200px;
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    .footer-top ul{
+        list-style-type: none;
+        border-top:3px solid transparent;
+        margin: 15px;
+        padding: 15px;
+        width:168px;
+    }
+    
+    .footer-top ul :first-child{
+        padding: 15px 0;
+        color: white;
+    }
+    
+    .footer-top p{
+        width: 365px;
+    }
+    
+    .footer-middle{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        
+    }
+    
+    .footer-middle img{
+        max-width: 100%;
+        width: 135px;
+        margin: 30px;
+    }
+    
+    container-width{
+        width:100% ;
+    }
+    .logo-reyhoon{
+        height:2.6rem;
+        width:8rem;
+    }
+   ul.help {
+        display: none;
+    }
+    .nav-flex{
+        justify-content:space-between;
+    }
+
+}/* above phablet */
+
+@media   (min-width:481px) {
+    container-width{
+        width:100% ;
+    }
+    .logo-reyhoon{
+        height:2.6rem;
+        width:8rem;
+    }
+   
+    .nav-flex{
+        justify-content:space-between;
+    }
+}
+/* above tablet */
+
+@media   (min-width:769px) {
+    
+    
+   
+    .nav-flex{
+        justify-content:space-between;
+    }
+}
+/* above desktop */
+
+@media (min-width:1025px){
+    .logo-reyhoon{
+        height:3.5rem;
+        width:12rem;
+    }
+    
+}
+/* above hd */
+@media   (min-width:1281px){
+    .logo-reyhoon{
+        height:3.5rem;
+        width:12rem;
+    }
+    container-width{
+        width:1200px ;
+    }
+
+}
